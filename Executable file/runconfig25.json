@@ -1,0 +1,8 @@
+{
+  "instanceFile": "./instance/Job_25/",
+  "outputFile": "./result/job25.csv",
+  "paramName": "inst025",
+  "paramProfilePath": "param1.json",
+  "numRun": 20,
+  "popuSize": 10
+}

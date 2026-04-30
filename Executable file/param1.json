@@ -1,0 +1,70 @@
+{
+  "profiles": [
+    {
+      "name": "inst025",
+      "params": {
+        "beamWidthExtra": 1,
+        "tabuTenure": 6,
+        "alp": 0.6,
+        "restTime": 10,
+        "timeNotBest": 20,
+        "blockLen": 7
+      }
+    },
+    {
+      "name": "inst050",
+      "params": {
+        "beamWidthExtra": 1,
+        "tabuTenure": 6,
+        "alp": 0.3,
+        "restTime": 30,
+        "timeNotBest": 20,
+        "blockLen": 15
+      }
+    },
+    {
+      "name": "inst075",
+      "params": {
+        "beamWidthExtra": 1,
+        "tabuTenure": 6,
+        "alp": 0.2,
+        "restTime": 50,
+        "timeNotBest": 20,
+        "blockLen": 22
+      }
+    },
+    {
+      "name": "inst100",
+      "params": {
+        "beamWidthExtra": 1,
+        "tabuTenure": 6,
+        "alp": 0.15,
+        "restTime": 100,
+        "timeNotBest": 20,
+        "blockLen": 30
+      }
+    },
+    {
+      "name": "inst125",
+      "params": {
+        "beamWidthExtra": 1,
+        "tabuTenure": 6,
+        "alp": 0.12,
+        "restTime": 150,
+        "timeNotBest": 20,
+        "blockLen": 36
+      }
+    },
+    {
+      "name": "inst150",
+      "params": {
+        "beamWidthExtra": 1,
+        "tabuTenure": 6,
+        "alp": 0.1,
+        "restTime": 250,
+        "timeNotBest": 20,
+        "blockLen": 45
+      }
+    }
+  ]
+}
