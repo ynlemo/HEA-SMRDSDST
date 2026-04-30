@@ -21,3 +21,7 @@ The explanation of a small example file is as follows:<br>
 This file contains the best and average makespan values obtained by the HEA algorithm for various test instances.
 ### SOLUTION.XLSX<br>
 This file contains the best solutions obtained by the HEA algorithm for various test instances.
+### Executable file
+When executing, use the following command: ./hea runconfig25.json
+The param1 file provides all the parameter configurations required for running instances of all scales.
+The runconfig25.json file specifies some runtime parameter settings. The instancefile should be organized according to the instance scale. If you change the instance scale, please update both the "instanceFile" and the "paramName" accordingly, because at runtime, the program will load different parameters based on the "paramName".The instance files are located in the "instance" folder, and the result files are stored in the "result" folder. Before running, please ensure that both folders exist.
