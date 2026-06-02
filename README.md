@@ -17,10 +17,8 @@ The explanation of a small example file is as follows:<br>
 >2 4 0 5 6<br>
 >4 3 5 0 2<br>
 >6 7 3 5 0 -> setup from job 5(row) to job n(column) (disregard diagonal)
-### HEA-RESULT.csv<br>
-This file contains the best and average makespan values obtained by the HEA algorithm for various test instances.
-### SOLUTION.XLSX<br>
-This file contains the best solutions obtained by the HEA algorithm for various test instances.
+### solutions<br>
+This folder contains the best solutions obtained by the HEA algorithm for various test instances.
 ### Executable file
 When executing, use the following command: ./hea runconfig25.json
 
